@@ -90,7 +90,7 @@ function App() {
         maxZoom={11}
         minZoom={2}
         style={{ width: "100vw", height: "100vh" }}
-        mapStyle={`https://api.maptiler.com/maps/streets-v2/style.json?key=${process.env.REACT_APP_API_KEY}`}
+        mapStyle={`https://api.maptiler.com/maps/streets-v2/style.json?key=aT3R24L9vQ9uYsl6KOBG`}
         onDblClick={currentUser && handleAddClick}
         
       >
