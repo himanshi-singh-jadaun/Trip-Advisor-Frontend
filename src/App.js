@@ -25,6 +25,7 @@ function App() {
   const [showLogin, setShowLogin] = useState(false);
 
   useEffect(() => {
+    fetch("https://trip-advisor-backend.onrender.com")
     const getPins = async () => {
       try {
         const res = await axios.get("/pins");
